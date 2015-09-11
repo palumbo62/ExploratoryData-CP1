@@ -1,3 +1,13 @@
+###################################################################
+# Coursera Johns Hopkins Data Scientist Track
+# Exploratory Data Analysis Course
+#
+# Author:   Robert Palumbo
+# Project:  Course Project 1
+# Source:   plot1.R
+# Notes:    Plots a histogram of the Global_active_power variable
+#           the timeframe [02/01/2007 - 02/02/2007]
+###################################################################
 library(dplyr)
 
 message("Load the data...")
