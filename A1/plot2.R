@@ -24,14 +24,19 @@ p2SubData <- filter(p2Data, xDate >= "2007-02-01" & xDate < "2007-02-03")
 p2SubData$Tmstmp <- as.POSIXct(paste(p2SubData$Date, p2SubData$Time), 
                                format = "%d/%m/%Y %H:%M:%S")
 
+# Slightly adjust the plot margins
+par1 <- par(mai=c(0.75, 0.9, 0.5, 0.5))
+
 message("Plot a line-graph for the Global_active_power variable...")
 plot(p2SubData$Tmstmp, p2SubData$Global_active_power, type = "l",
      ylab = "Global Active Power (killowatts)", xlab = "")
 
 message("Save the plot as 'plot2.png'")
 
+par(mai=par1)
+
 # Save plot to png file
-dev.copy(png, file = "plot2.png")
+dev.copy(png, file = "plot2.png", width = 640, height = 480)
 dev.off()
 
 message("Done!")
