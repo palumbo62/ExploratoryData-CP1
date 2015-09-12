@@ -5,7 +5,11 @@
 # Author:   Robert Palumbo
 # Project:  Course Project 1
 # Source:   plot4.R
+<<<<<<< HEAD
 # Notes:    Plots a 4 different graphs on same page all over
+=======
+# Notes:    Plots a 4 different graph on same page all over
+>>>>>>> 7138e9ce64ad6bf774f55bb00ba074e9f41c7cd4
 #           the timeframe [02/01/2007 - 02/02/2007]:
 #           1. Global_active_power over time
 #           2. Energy submetering_[1..3] over time
