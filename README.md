@@ -3,15 +3,15 @@
 # Course Project 1 - plot1.R, plot2.R, plot3.R, plot4.R
 
 1. plot1.R - plot Global_active_power over time
-2. plot1.png - PNG image of the plot
+  * plot1.png - PNG image of the plot
 
 
 1. plot2.R - Plots a line-graph Global_active_power variable over the timeframe [02/01/2007 - 02/02/2007]
-2. plot2.png - PNG image of the plot
+  * plot2.png - PNG image of the plot
 
 
 1. plot3.R - Plots a line-graph for each of the Sub_metering_[1..3] variable over the imeframe [02/01/2007 - 02/02/2007]
-2. plot3.png - PNG image of the plot
+  * plot3.png - PNG image of the plot
 
 
 1. plot4.R - Plots a 4 different graphs on same page all over the timeframe [02/01/2007 - 02/02/2007]:
@@ -19,4 +19,4 @@
   *  Energy submetering_[1..3] over time
   *  Voltage over datetime
   *  Global_reactive_power over datetime
-2. plot4.PNG - PNG image of the plot
+     * plot4.PNG - PNG image of the plot
