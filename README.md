@@ -6,7 +6,11 @@
      - plot3.R
      - plot4.R
 
-1. plot1.R - plot Global_active_power over time
+All plots required the data-set 'household_power_consumption.txt' to exist in the current
+working directory that each script is executed from.
+
+
+1. plot1.R - plot Global_active_power over  the timeframe [02/01/2007 - 02/02/2007]
   * plot1.png - PNG image of the plot
 
 
