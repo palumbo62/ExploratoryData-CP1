@@ -1,6 +1,10 @@
 # ExploratoryData-CP1
 # Johns Hopkins Data Scientist Track - Exploratory Data Analysis Course
-# Course Project 1 - plot1.R, plot2.R, plot3.R, plot4.R
+# Course Project 1 
+     - plot1.R 
+     - plot2.R
+     - plot3.R
+     - plot4.R
 
 1. plot1.R - plot Global_active_power over time
   * plot1.png - PNG image of the plot
